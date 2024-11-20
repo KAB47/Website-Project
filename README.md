@@ -1,5 +1,5 @@
 # Website-Project
-A website for a resturant that uses a simple booking system.
+A website for a restaurant that uses a simple booking system.
 
 This project consists of a set of static HTML files that form a simple website. It includes pages like "Index," "Contact," "Book," and "Restaurants" which you can explore in your browser.
 
