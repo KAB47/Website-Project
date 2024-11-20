@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow-x: hidden;
+    font-family: Arial, sans-serif;
+}
+
+.parallax-container {
+    position: relative;
+    height: 100vh;
+    background: url('header-background.jpg') no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+
+}
+
+.h1 {
+    color: bisque;
+}
+
+.parallax-container header {
+    position: relative;
+    z-index: 1;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.buffer {
+    width: 100%;
+    min-height: 60vh;
+    background-color: var(black);
+  }
+
+.parallax-content {
+    position: relative;
+    width: 100%;
+}
+
+.parallax-bar {
+    position: relative;
+    height: 50vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-overlay {
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
